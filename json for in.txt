@@ -1,0 +1,24 @@
+// JSON  for in
+
+let iphonemodel =[{
+    "iphone13" : {
+        "display": "All-screen OLED display",
+        "camera": "Advanced dual‑camera system Wide, Ultra Wide",
+        "battery": "Up to 19 hours of video playback3"
+    },
+    "iphone13pro" : {
+        "display": "All-screen OLED display1 with ProMotion",
+        "camera": "Pro camera system Telephoto, Wide, Ultra Wide",
+        "battery": "Up to 28 hours of video playback3"
+    },
+    "iphone12" : {
+        "display": "All-screen OLED display",
+        "camera": "Dual‑camera system Wide, Ultra Wide",
+        "battery": "Up to 17 hours of video playback3"
+    },
+    
+}]
+
+for(let iphone in iphonemodel){
+    console.log(iphonemodel[iphone])
+}

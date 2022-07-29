@@ -1,0 +1,62 @@
+let Resume = [
+    {
+        "Basics": {
+            "Name": "haiharan",
+            "Email": "hariharangnanasankaran208@gmail.com",
+            "Phone": "9500732715",
+        },
+        "Address" :{
+          
+            "Area": "new street",
+            "PIN Code": "606106",
+            "Town": "Cuddalore",
+            "District": "cuddalore",
+            "State": "Tamilnadu",
+            "Country": "India",
+        },
+        "Skills": {
+            "1":"Communication Skills",
+            "2":"HTML,CSS,JavaScript",
+            "3":"MsOffice",
+        },
+        
+        "Education": {
+            "PG": {
+                "Course":"MCA",
+                "Institution": "SVIS,SKU",
+                "Year": "2019-2021",
+                "CGPA": "75%",
+            },
+            "Degree": {
+                "Course":"MPCs",
+                "Institution": "SKP,SKU",
+                "Year": "2016-2019",
+                "CGPA": "82%",
+            },
+            "Intermediate": {
+                "Course":"MPC",
+                "Institution": "SRI SAI JR CLG",
+                "Year": "2014-2016",
+                "CGPA": "70%",
+            },
+            "SSC": {
+                "Course":"SSC",
+                "Institution": "Railway High School",
+                "Year": "2014",
+                "CGPA": "70%",
+            }
+                
+                
+        },
+        "Experience": {
+            "Tutor":"Gave in-person instructions to 10th class students to help them aquire knowledge  in Mathematics for weekly exams",
+        },
+
+        "Declartion": {
+            "Dec":"I hereby declare that the above cited information is true to the best of kknowledge and belief,if given a chance , I can prove myself",
+        },
+        
+        
+    }
+]
+console.log(Resume)
